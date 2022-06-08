@@ -1,0 +1,94 @@
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Denvolver aki */
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.list-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products {
+    width: 24%;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-product {
+    display:flex;
+    margin: 0 auto;
+}
+
+.name-product {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+
+li p {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+}
+
+li input {
+    color: white;
+    height: 10%;
+    margin: 12px;
+    background-color: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
